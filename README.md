@@ -1,2 +1,10 @@
-# SDS-Lab-02
-Repositorio para el segundo laboratorio del curso de Security Data Science.
+# Laboratorio 2
+El laboratorio consiste en completar el [curso intensivo de IA generativa](https://www.kaggle.com/learn-guide/5-day-genai) en Kaggle, que combina teoría y práctica sobre el uso de LLM. Cada día incluye laboratorios (excepto el quinto) que deben desarrollarse en computadoras personales o Google AI Studio.
+
+## Preguntas
+### ¿Hubo alguna aplicación o caso de uso de los LLMs que le llamó más la atención? ¿Por qué?
+* La aplicación que llamó mi atención fue la construcción de un sistema de respuesta a preguntas basado en recuperación aumentada por generación (RAG). Este enfoque me parecio interesante porque combina la capacidad de los modelos de lenguaje para generar respuestas con la precisión de buscar información en documentos personalizados, lo que lo hace útil para aplicaciones como asistentes virtuales, soporte técnico automatizado y análisis de documentos.
+* Me llamó la atención porque mejora la precisión y relevancia de las respuestas en comparación con un LLM puro, reduciendo las alucinaciones y asegurando que la información provenga de fuentes confiables. Además, su implementación es práctica para muchos contextos empresariales y educativos, alineándose con la tendencia de usar IA para mejorar la eficiencia en la gestión de información.
+
+### Proponga un caso de ciberseguridad que considere se puede solucionar mediante un LLM y describa de forma general cómo lo resolvería.
+* Un caso de ciberseguridad que se puede abordar con un LLM es la detección y respuesta a ataques de phishing. Un modelo de lenguaje puede analizar correos electrónicos, mensajes y URLs para identificar patrones sospechosos, como lenguaje engañoso, remitentes desconocidos o enlaces maliciosos. Para resolverlo, se puede entrenar un LLM con datos de correos legítimos y fraudulentos, utilizando embeddings para evaluar la similitud con ejemplos previos de phishing. Luego, el modelo puede integrarse en un sistema de monitoreo que alerte a los usuarios sobre posibles amenazas o automatice respuestas para bloquear accesos no autorizados. Esto permitiría mejorar la seguridad de las comunicaciones empresariales y personales, reduciendo el riesgo de ataques exitosos.
